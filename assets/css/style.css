@@ -1,18 +1,23 @@
+/*Universal Styling of CSS*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*root variables that repeat throughout the style sheet*/
 :root {
     --primary-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     --primary-color: #FDF8F5;
     --background: midnightblue;
 }
+
+/*gave a universal background for the entire webpage*/
 body {
     background-color: var(--background);
 }
 
+/*Styling for header*/
 header {
     padding: 30px;
     font-family:Arial, Helvetica, sans-serif; 
@@ -25,6 +30,7 @@ h1 {
     font-style: oblique;
 } 
 
+/*Styling for nav area to achieve the horizontal links*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -47,6 +53,7 @@ a {
     text-decoration: none;
 }
 
+/*centering the backsplash with the quote to cover the entire section across the screen*/
 .hero {
     height: 300px;
     background-image: url("../images/Grand-Canyon.jpg");
@@ -78,6 +85,7 @@ h2 {
     font-weight: bold;
 }
 
+/*Styling for the Container holding the About Me section*/
 .container {
     width: 90%;
     margin: 0 auto;
@@ -85,6 +93,7 @@ h2 {
     display: flex;
 }
 
+/*This will style the titles about me, projects, and contact*/
 .container-title {
     width: 15%;
     font-size: 60px;
@@ -97,6 +106,7 @@ h2 {
     color: var(--primary-color);
 }
 
+/*styling container to hold the paragraph and picture*/
 .container-content {
     width: 100%;
     display: flex;
@@ -104,6 +114,7 @@ h2 {
     justify-content: space-around;
 }
 
+/*inserting my headshot in the container*/
 .profile-picture {
     background-image: url("../images/headshot.png");
     background-size: cover;
@@ -122,6 +133,7 @@ h2 {
     font-family: var(primary-font-family);
 }
 
+/*Styling for the grid holding the boxes for project section from lines 128-191*/
 .grid-container {
     display: flex;
     justify-content: center;
@@ -187,6 +199,7 @@ h2 {
     font-family: var(primary-font-family);
 }
 
+/*styling contact me section*/ 
 .container-contact {
     display: inline-flex;
     flex-wrap: wrap;
@@ -205,7 +218,6 @@ h2 {
     transition: 0.5s;
 }
 
-
 /* footer styling */
 footer {
     height: 60px;
@@ -220,77 +232,4 @@ footer div {
     font-size: 16px;
     padding-top: 30px;
 }
-/* media queries */
-@media screen and (max-width: 1292px) {
-    .container-content {
-        display: inline;
-    }
-
-    .container-content p {
-        width: 100%;
-    }
-
-    .profile-picture{
-        float: left;
-        margin-right: 15px;
-    }
-
-    .container-contact {
-        display: flex;
-    }
-}
-@media screen and (max-width: 1028px) {
-    header  {
-        padding-bottom: 0;
-        position: relative;
-        justify-content: center;
-    }
-    
-    header h1 {
-        width: 100%;
-        text-align: center;
-    }
-    
-    .grid-layout {
-        grid-template-columns: repeat(2, 2fr);
-        grid-template-rows: repeat(4, 100px);
-    }
-
-    .screenshot {
-        opacity: 1;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    main {
-        padding: 0 15px;
-    }
-    .container {
-        display: inline;
-    }
-
-    .container-title {
-        width: 100%;
-        text-align: center;
-        border-right: none;
-        border-bottom: solid black 4px;
-        margin: 20px 0;
-        padding: 0;
-        padding-bottom: 10px;
-    }
-
-    .container-contact {
-        margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    header nav ul {
-        justify-content: space-around;
-    }
-    
-    header nav ul li a {
-        margin-top: 10px;
-    }
-}
-
+/*Media Queries for resizing for smaller screens*/
