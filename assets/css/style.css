@@ -3,14 +3,20 @@
     padding: 0;
     margin: 0;
 }
+
+:root {
+    --primary-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --primary-color: #FDF8F5;
+    --background: midnightblue;
+}
 body {
-    background-color: midnightblue;
+    background-color: var(--background);
 }
 
 header {
     padding: 30px;
     font-family:Arial, Helvetica, sans-serif; 
-    color: #FDF8F5;
+    color: var(--primary-color);
 }
 
 h1 {
@@ -24,7 +30,7 @@ nav {
     margin-right: 20px;
     float: right;
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(primary-font-family);
 }
 
 ul {
@@ -37,7 +43,7 @@ li {
 }
 
 a {
-    color: #FDF8F5;
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -53,9 +59,9 @@ a {
     border-top: 8px solid;
 }
 .hero h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(primary-font-family);
     font-size: 30px;
-    color: #FDF8F5;
+    color: var(--primary-color);
     background: #8a5619;
     margin-bottom: 200px;
     border-radius: 20px 20px 20px 20px;
@@ -83,12 +89,12 @@ h2 {
     width: 15%;
     font-size: 60px;
     font-weight: bold;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(primary-font-family);
     text-align: right;
     padding-right: 20px;
     margin-right: 10px;
     border-right: solid #FDF8F5 4px;
-    color: #FDF8F5;
+    color: var(--primary-color);
 }
 
 .container-content {
@@ -111,9 +117,9 @@ h2 {
     width: 70%;
     margin-left: 10px;
     font-size: 22px;
-    color: #FDF8F5;
+    color: var(--primary-color);
     line-height: 1.5;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(primary-font-family);
 }
 
 .grid-container {
@@ -146,7 +152,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background: midnightblue;
+    background: var(--background);
 }
 
 .screenshot {
@@ -165,27 +171,27 @@ h2 {
     width: 100px;
     padding: 10px 15px;
     margin-bottom: 20px;
-    background: midnightblue;
+    background: var(--background);
     border-radius: 0 15px 15px 0;
     text-align: left;
-    color: #FDF8F5;
+    color: var(--primary-color);
 }
 
 .image-title h3 {
     font-size: 14px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(primary-font-family);
 }
 
 .image-title p {
     font-size: 10px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(primary-font-family);
 }
 
 .container-contact {
     display: inline-flex;
     flex-wrap: wrap;
     align-content: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(primary-font-family);
     font-size: 30px;
     padding-left: 25px;
 }
@@ -204,14 +210,13 @@ h2 {
 footer {
     height: 60px;
     border-top: 4px solid black;
-    background: midnightblue;
     text-align: center;
-    color: #FDF8F5;
+    color: var(--primary-color);
 }
 
 footer div {
-    color: #FDF8F5;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--primary-color);
+    font-family: var(primary-font-family);
     font-size: 16px;
     padding-top: 30px;
 }
