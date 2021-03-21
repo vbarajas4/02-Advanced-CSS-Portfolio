@@ -1,4 +1,120 @@
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+body {
+    background-color: midnightblue;
+}
+
+header {
+    padding: 30px;
+    font-family:Arial, Helvetica, sans-serif; 
+    color: #FDF8F5;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 50px;
+    font-style: oblique;
+} 
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 35px;
+    font-size: 40px;
+}
+
+a {
+    color: #FDF8F5;
+    text-decoration: none;
+}
+
+.hero {
+    height: 300px;
+    background-image: url("../images/Grand-Canyon.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-bottom: 8px solid;
+    border-top: 8px solid;
+}
+.hero h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #FDF8F5;
+    background: #8a5619;
+    margin-bottom: 200px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px 50px;
+    margin: auto;
+}
+
+h2 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+}
+
+.container-title {
+    width: 15%;
+    font-size: 60px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+    padding-right: 20px;
+    margin-right: 10px;
+    border-right: solid #FDF8F5 4px;
+    color: #FDF8F5;
+}
+
+.container-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.profile-picture {
+    background-image: url("../images/headshot.png");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    background-position: center;
+}
+
+.container-content p {
+    width: 70%;
+    margin-left: 10px;
+    font-size: 22px;
+    color: #FDF8F5;
+    line-height: 1.5;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
