@@ -1,6 +1,6 @@
 # 📌 02-Advanced-CSS-Portfolio 📌
 
-[Link to GitHub deployed Webpage]
+[Link to GitHub deployed Webpage](https://vbarajas4.github.io/02-Advanced-CSS-Portfolio/)
 
 ## User Story
 AS AN employer
@@ -22,10 +22,10 @@ The site can be seen in various screens and devices as responsive layout was put
 ## Important Links 
 
 GitHub Repository Link
-
+https://github.com/vbarajas4/02-Advanced-CSS-Portfolio
 
 Link to GitHub deployed Webpage 
-
+https://vbarajas4.github.io/02-Advanced-CSS-Portfolio/
 
 ## License
 
