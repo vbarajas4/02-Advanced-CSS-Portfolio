@@ -17,7 +17,17 @@ The site can be seen in various screens and devices as responsive layout was put
 
 ## Screenshot of my Live Github Page
 
+Screenshot at 1440px 
+<img width="530" alt="css-portfolio-ss 1440px" src="https://user-images.githubusercontent.com/79430431/111940415-e90d9200-8a8b-11eb-8d0d-7b4edbbe51a9.png">
 
+Screenshot at 1024px 
+<img width="384" alt="css-portfolio-ss 1024px" src="https://user-images.githubusercontent.com/79430431/111940483-15c1a980-8a8c-11eb-834d-87a1558bb3fd.png">
+
+Screenshot at 768px (tablet devices)
+<img width="303" alt="css-portfolio-ss 768px" src="https://user-images.githubusercontent.com/79430431/111940564-50c3dd00-8a8c-11eb-94ee-9a8fe0a64332.png">
+
+Screenshot at 425px (mobile devices)
+<img width="190" alt="css-portfolio-ss 425px" src="https://user-images.githubusercontent.com/79430431/111940626-7355f600-8a8c-11eb-80ca-3649a90edac2.png">
 
 ## Important Links 
 
