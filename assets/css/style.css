@@ -144,11 +144,10 @@ h2 {
     margin-left: 20px;
     margin-bottom: 70px;
 }
-/*styling the first project to look bigger, 
-(!important) is used to overwrite over 
-other elements to take effect.*/
-.project-1 {
-    width: 100% !important;
+/*styling the first project to look bigger*/
+
+ #full-size-image {
+     width: 100%;
 }
 
 .web-image {
