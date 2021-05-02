@@ -37,6 +37,18 @@ https://github.com/vbarajas4/02-Advanced-CSS-Portfolio
 Link to GitHub deployed Webpage 
 https://vbarajas4.github.io/02-Advanced-CSS-Portfolio/
 
+## Framework/Technolgies
+
+HTML 
+
+CSS
+
+## Contact Information
+
+[Email](vbarajas4@gmail.com)
+
+[LinkIn](https://www.linkedin.com/in/vanessa-maldonado-90668110a/)
+
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
