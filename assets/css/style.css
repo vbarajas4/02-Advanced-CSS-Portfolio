@@ -51,6 +51,7 @@ li {
 a {
     color: var(--primary-color);
     text-decoration: none;
+    height: 100%;
 }
 
 /*centering the backsplash with the quote to cover the entire section across the screen*/
@@ -157,6 +158,7 @@ h2 {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
+    position: relative;
     background: var(--background);
     width: 50%;
 }
@@ -181,6 +183,8 @@ h2 {
     border-radius: 0 15px 15px 0;
     text-align: left;
     color: var(--primary-color);
+    bottom: 0px;
+    left: 0px;
 }
 
 .image-title h3 {
@@ -191,6 +195,10 @@ h2 {
 .image-title p {
     font-size: 10px;
     font-family: var(primary-font-family);
+}
+
+.image-title a {
+    font-size: smaller;
 }
 
 /*styling contact me section*/ 
